@@ -5,13 +5,127 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <!-- To Scroll the entire quiz -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <!-- ScrollView has to have only one layout -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <!-- Question n.1 -->
+            <!-- Wrapper n.1 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/QuestionBox">
+                <!-- question text -->
+                <TextView
+                    style="@style/QuestionHeader"
+                    android:text="@string/question1"/>
+
+                <!-- place for answer - edittext -->
+                <EditText
+                    style="@style/EditTextAnswer"
+                    android:hint="@string/hint1"
+                    android:id="@+id/answer1"/>
+            </RelativeLayout>
+
+            <!-- Question n.2 -->
+            <!-- Wrapper n.2 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/QuestionBox">
+                <!-- question text -->
+                <TextView
+                    style="@style/QuestionHeader"
+                    android:text="@string/question2"/>
+
+                <!-- place for answer - edittext -->
+                <EditText
+                    style="@style/EditTextAnswer"
+                    android:hint="@string/hint2"
+                    android:id="@+id/answer2"/>
+            </RelativeLayout>
+
+            <!-- Question n.3 -->
+            <!-- Wrapper n.3 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/QuestionBox">
+                <!-- question text -->
+                <TextView
+                    style="@style/QuestionHeader"
+                    android:text="@string/question3"
+                    android:id="@+id/question3"/>
+
+                <!-- place for answer - radiobuttons -->
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/question3">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer31"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer32"
+                        android:id="@+id/answer32"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer33"/>
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <!-- Question n.4 -->
+            <!-- Wrapper n.4 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/QuestionBox">
+                <!-- question text -->
+                <TextView
+                    style="@style/QuestionHeader"
+                    android:text="@string/question4"
+                    android:id="@+id/question4"/>
+
+                <!-- place for answer - checkboxes -->
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:layout_below="@+id/question4">
+                    <CheckBox android:text="@string/answer41"
+                        android:id="@+id/answer41" />
+                    <CheckBox android:text="@string/answer42"
+                        android:id="@+id/answer42"/>
+                    <CheckBox android:text="@string/answer43"
+                        android:id="@+id/answer43"/>
+                    <CheckBox android:text="@string/answer44"
+                        android:id="@+id/answer44"/>
+                </GridLayout>
+
+            </RelativeLayout>
+
+
+            <!-- Submit button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:onClick="submit"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_gravity="center"/>
 
         </LinearLayout>
     </ScrollView>

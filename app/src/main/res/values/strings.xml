@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="question1">How many days are in one week?</string>
+    <string name="answer1">7</string>
+    <string name="hint1">1,3,etc.</string>
+    <string name="question2">What is your favorite fruit?</string>
+    <string name="answer2"></string>
+    <string name="hint2">banana, mango, etc.</string>
+    <string name="submit">Submit</string>string>
+    <string name="question3">Which of these countries is the largest?</string>
+    <string name="answer31">Czech Republic</string>
+    <string name="answer32">USA</string>
+    <string name="answer33">Spain</string>
+    <string name="question4">Which of these are fruits?</string>
+    <string name="answer41">Banana</string>
+    <string name="answer42">Cucumber</string>
+    <string name="answer43">Peach</string>
+    <string name="answer44">Tomato</string>
 </resources>
