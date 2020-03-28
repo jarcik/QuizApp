@@ -16,12 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        EditText answer1 = (EditText) findViewById(R.id.answer1);
-        EditText answer2 = (EditText) findViewById(R.id.answer2);
-        View.OnFocusChangeListener listener = new MyFocusChangeListener();
-        answer1.setOnFocusChangeListener(listener);
-        answer2.setOnFocusChangeListener(listener);
     }
 
     /**
