@@ -1,19 +1,21 @@
 <resources>
-    <string name="app_name">QuizApp</string>
-    <string name="question1">How many days are in one week?</string>
-    <string name="answer1">7</string>
-    <string name="hint1">1,3,etc.</string>
-    <string name="question2">What is your favorite fruit?</string>
-    <string name="answer2"></string>
-    <string name="hint2">banana, mango, etc.</string>
+    <string name="app_name">Stargate Quiz App</string>
+    <string name="question1">What was the first planet SG-1 team went throught the gate?</string>
+    <string name="right1">Abydos</string>
+    <string name="hint1">Name of the planet</string>
+    <string name="question2">Who was the first lady in the SG-1 team?</string>
+    <string name="right2">Samantha Carter</string>
+    <string name="hint2">Full name</string>
     <string name="submit">Submit</string>string>
-    <string name="question3">Which of these countries is the largest?</string>
-    <string name="answer31">Czech Republic</string>
-    <string name="answer32">USA</string>
-    <string name="answer33">Spain</string>
-    <string name="question4">Which of these are fruits?</string>
-    <string name="answer41">Banana</string>
-    <string name="answer42">Cucumber</string>
-    <string name="answer43">Peach</string>
-    <string name="answer44">Tomato</string>
+    <string name="question3">In which episode Jack and Teal\'c played the golf throungt the gate?</string>
+    <string name="answer31">05x04</string>
+    <string name="answer32">04x06</string>
+    <string name="answer33">06x09</string>
+    <string name="question4">Which races are ascended?</string>
+    <string name="answer41">Ancients</string>
+    <string name="answer42">Tok\'ra</string>
+    <string name="answer43">Ori</string>
+    <string name="answer44">Asgards</string>
+    <string name="rightResult">Awesome! You have all the answers correct. Congratulations!</string>
+    <string name="wrongResult">Do not worry, it happens. You have count of right answers: </string>
 </resources>
